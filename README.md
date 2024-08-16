@@ -80,7 +80,9 @@ Transient analysis is used to observe the time-varying behavior of the CMOS inve
 
 Below are the results from the transient analysis:
 
+
 <img width="665" alt="ADE L " src="https://github.com/user-attachments/assets/139d9c44-c0fe-44bb-b6b4-984b75c3290b">
+
 
 3. Plotting Results:
    - Select Output and Input lines for plotting.
@@ -90,27 +92,40 @@ Below are the results from the transient analysis:
    - Ensure the netlist is generated correctly.
    - Execute the simulation to analyze the transient response of the CMOS inverter.
 
-1. - Result of Transient Response 
+
+1. Result of Transient Response
+   
 
      <img width="960" alt="Transient Response" src="https://github.com/user-attachments/assets/232af5dc-bd4c-4461-a2e0-eef39599e3a5">
 
-2. - Result of DC Output without input
+
+3. Result of DC Output without input
+   
      
 <img width="960" alt="DC output 1" src="https://github.com/user-attachments/assets/2ffb0f08-b749-4519-abd0-58307edf6695">
 
-3. - Result of DC Output with input
+
+3. Result of DC Output with input
+   
    
      <img width="960" alt="DC Output 2 with Input" src="https://github.com/user-attachments/assets/7be60c78-706e-41d2-83d2-9162d5aa06cd">
 
-4. - Result of Output Current
+
+5. Result of Output Current
+   
 
 <img width="960" alt="Current Plot" src="https://github.com/user-attachments/assets/ce9246b2-1580-4a6d-b51f-2a647f4505d2">
 
-5. - Result of both DC and Current Output  
 
-     ![Final Result](https://github.com/user-attachments/assets/052da76c-c07a-42af-9923-436768648b65)
+5.  Result of both DC and Current Output
+   
 
-6. - Final Result
+     ![DC with Current Output](https://github.com/user-attachments/assets/055ef255-fa2e-49bd-91db-b18a804fab99)
+
+
+
+7. Final Result
+   
 
      ![Final Result](https://github.com/user-attachments/assets/7f4e3a6a-c6a9-4d6c-83a8-31c3c3aea1d8)
 
