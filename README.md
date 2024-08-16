@@ -8,3 +8,4 @@ The project demonstrates a full design flow for a CMOS inverter, a fundamental b
 5. Layout Generation: Converting the schematic to a physical layout while adhering to design rules.
 6. DRC and LVS Checks: Ensuring that the layout is error-free and matches the schematic design.
 7. AV Extraction (Pending): The final step, parasitic extraction, will be added shortly.
+![Inverter Schematic Design](https://github.com/user-attachments/assets/13bcb6cb-bb7d-42ca-b338-42173e372ea6)
