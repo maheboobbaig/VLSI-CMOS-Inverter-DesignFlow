@@ -29,7 +29,7 @@ Below is the schematic diagram of the CMOS inverter:
 This schematic provides a detailed view of the CMOS inverter’s design and is essential for the subsequent steps, such as Testbench, simulation and layout design. Understanding the schematic helps ensure that the circuit performs as expected.
 
 2. Symbol creation
-
+   <br>
 Symbol creation involves designing a graphical representation of the CMOS inverter that will be used in schematic diagrams. This symbol simplifies the representation of the inverter in circuit designs and helps in maintaining a clear and organized schematic layout.
 
 The symbol for the CMOS inverter includes:
@@ -45,14 +45,14 @@ Below is the symbol created for the CMOS inverter:
 Creating the symbol for the CMOS inverter is essential for integrating the inverter into schematic diagrams. It provides a standardized way to represent the inverter, making the design process more efficient and organized.
 
 3.Testbench Setup
-
+<br>
 The testbench setup for the CMOS inverter involves configuring input and power signals to verify the circuit's functionality. This section describes the connections and components used in the testbench.
 
 The testbench setup consists of the following components:
 
 - Pulse Source (VPULSE): Provides a pulsed signal to the input of the CMOS inverter. This simulates varying input conditions to test the inverter’s response.
 - DC Voltage Source (VDC): Provides a constant DC voltage to power the CMOS inverter. It is connected to the VDD and VSS pins of the inverter.
-- Connections:
+  *Connections*:
   - VPULSE Connection: Connect the output of the VPULSE source to the input pin of the CMOS inverter, This applies the pulsed input signal.
   - VDC Connection: Connect the positive terminal of the VDC source to the VDD pin of the CMOS inverter and the negative terminal to the ground. This supplies power to the inverter.
   - Output Monitoring: Connect the output pin of the CMOS inverter to an observation tool or probe to monitor the output signal.
