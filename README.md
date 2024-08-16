@@ -52,7 +52,8 @@ The testbench setup consists of the following components:
 
 - Pulse Source (VPULSE): Provides a pulsed signal to the input of the CMOS inverter. This simulates varying input conditions to test the inverter’s response.
 - DC Voltage Source (VDC): Provides a constant DC voltage to power the CMOS inverter. It is connected to the VDD and VSS pins of the inverter.
-  *Connections*:
+  <br>
+  - Connections:
   - VPULSE Connection: Connect the output of the VPULSE source to the input pin of the CMOS inverter, This applies the pulsed input signal.
   - VDC Connection: Connect the positive terminal of the VDC source to the VDD pin of the CMOS inverter and the negative terminal to the ground. This supplies power to the inverter.
   - Output Monitoring: Connect the output pin of the CMOS inverter to an observation tool or probe to monitor the output signal.
@@ -62,3 +63,56 @@ Below is the diagram of the testbench setup for the CMOS inverter:
 ![Inverter Testbench Creation](https://github.com/user-attachments/assets/682f2699-bf14-4a03-a028-092f4b4b56ca)
 
 The testbench setup for the CMOS inverter uses a pulse source (VPULSE) to apply varying input signals and a DC voltage source (VDC) to power the circuit. By connecting these sources to the appropriate pins and monitoring the output, the testbench helps verify the inverter’s functionality and performance.
+
+4. Transient Analysis
+
+Transient analysis is used to observe the time-varying behavior of the CMOS inverter. This analysis shows how the inverter responds to changes in input signals over time.
+
+1. Setup Transient Analysis:
+   - Set the Stop Time to 200 nanoseconds.
+   - Choose Moderate Mode for the simulation.
+
+2. DC Analysis Setup:
+   - Select the option to Save DC Operating Point.
+   - Choose Component Parameter for the sweep type.
+   - Select VPULSE as the component for DC sweep.
+   - Set the sweep range from 0 to 1.8 volts.
+
+Below are the results from the transient analysis:
+
+<img width="665" alt="ADE L " src="https://github.com/user-attachments/assets/139d9c44-c0fe-44bb-b6b4-984b75c3290b">
+
+3. Plotting Results:
+   - Select Output and Input lines for plotting.
+   - Run the transient analysis and review the results.
+
+4. Netlist and Simulation:
+   - Ensure the netlist is generated correctly.
+   - Execute the simulation to analyze the transient response of the CMOS inverter.
+
+1. - Result of Transient Response 
+
+     <img width="960" alt="Transient Response" src="https://github.com/user-attachments/assets/232af5dc-bd4c-4461-a2e0-eef39599e3a5">
+
+2. - Result of DC Output without input
+     
+<img width="960" alt="DC output 1" src="https://github.com/user-attachments/assets/2ffb0f08-b749-4519-abd0-58307edf6695">
+
+3. - Result of DC Output with input
+   
+     <img width="960" alt="DC Output 2 with Input" src="https://github.com/user-attachments/assets/7be60c78-706e-41d2-83d2-9162d5aa06cd">
+
+4. - Result of Output Current
+
+<img width="960" alt="Current Plot" src="https://github.com/user-attachments/assets/ce9246b2-1580-4a6d-b51f-2a647f4505d2">
+
+5. - Result of both DC and Current Output  
+
+     ![Final Result](https://github.com/user-attachments/assets/052da76c-c07a-42af-9923-436768648b65)
+
+6. - Final Result
+
+     ![Final Result](https://github.com/user-attachments/assets/7f4e3a6a-c6a9-4d6c-83a8-31c3c3aea1d8)
+
+
+
