@@ -27,15 +27,15 @@ Below is the schematic diagram of the CMOS inverter:
 ![Inverter Schematic Design](https://github.com/user-attachments/assets/13bcb6cb-bb7d-42ca-b338-42173e372ea6)
 
 This schematic provides a detailed view of the CMOS inverter’s design and is essential for the subsequent steps, such as Testbench, simulation and layout design. Understanding the schematic helps ensure that the circuit performs as expected.
-
+<br>
 2. Symbol creation
    <br>
 Symbol creation involves designing a graphical representation of the CMOS inverter that will be used in schematic diagrams. This symbol simplifies the representation of the inverter in circuit designs and helps in maintaining a clear and organized schematic layout.
 
 The symbol for the CMOS inverter includes:
 - Pin configuration: Labels for input and output pins are clearly marked.
-- Visual representation: The symbol is designed to visually represent the CMOS inverter in a compact and recognizable format.
-- Standardized layout: The symbol follows standard conventions for consistency in schematic diagrams.
+- Visual representation:The symbol is designed to visually represent the CMOS inverter in a compact and recognizable format.
+- Standardized layout:The symbol follows standard conventions for consistency in schematic diagrams.
 
 The symbol is used in schematic diagrams to easily incorporate the CMOS inverter into larger circuit designs.
 Below is the symbol created for the CMOS inverter:
@@ -52,8 +52,8 @@ The testbench setup consists of the following components:
 
 - Pulse Source (VPULSE): Provides a pulsed signal to the input of the CMOS inverter. This simulates varying input conditions to test the inverter’s response.
 - DC Voltage Source (VDC): Provides a constant DC voltage to power the CMOS inverter. It is connected to the VDD and VSS pins of the inverter.
-  <br>
-  - Connections:
+<br>
+Connections:
   - VPULSE Connection: Connect the output of the VPULSE source to the input pin of the CMOS inverter, This applies the pulsed input signal.
   - VDC Connection: Connect the positive terminal of the VDC source to the VDD pin of the CMOS inverter and the negative terminal to the ground. This supplies power to the inverter.
   - Output Monitoring: Connect the output pin of the CMOS inverter to an observation tool or probe to monitor the output signal.
@@ -130,4 +130,4 @@ Below are the results from the transient analysis:
      ![Final Result](https://github.com/user-attachments/assets/7f4e3a6a-c6a9-4d6c-83a8-31c3c3aea1d8)
 
 
-
+i will upload other details on tommorrow
