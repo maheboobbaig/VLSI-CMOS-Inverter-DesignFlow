@@ -7,7 +7,7 @@ The project demonstrates a full design flow for a CMOS inverter, a fundamental b
 4. Transient and DC Analysis: Detailed simulation results, ensuring the design meets performance criteria.
 5. Layout Generation: Converting the schematic to a physical layout while adhering to design rules.
 6. DRC and LVS Checks: Ensuring that the layout is error-free and matches the schematic design.
-7. AV Extraction (Pending): The final step, parasitic extraction, will be added shortly.
+7. AV Extraction (Pend ing): The final step, parasitic extraction, will be added shortly.
 
 Lets Start
 1. Schematic Design
@@ -130,4 +130,31 @@ Below are the results from the transient analysis:
      ![Final Result](https://github.com/user-attachments/assets/7f4e3a6a-c6a9-4d6c-83a8-31c3c3aea1d8)
 
 
-i will upload other details on tommorrow
+- 5. Layout Generation : DRC and LVS Checked
+
+DRC Checked
+
+![Inverter Layout with DRC Check](https://github.com/user-attachments/assets/7ffce0f4-4f2f-46d0-8bea-a0283ec9d05d)
+
+
+The image above presents the results of the Design Rule Check (DRC) for the CMOS inverter layout. The check has been successfully completed with no violations detected, as indicated by the absence of any error highlights. This confirms that the layout adheres to all design rules and is fully compliant, allowing it to proceed to the next stages in the design flow.
+
+
+LVS Checked
+
+first image 
+
+![Inverter Layout with LVS](https://github.com/user-attachments/assets/9044d869-7a92-41eb-b818-2a1d83731bb0)
+
+
+second image
+
+![Schematic and Layout Match](https://github.com/user-attachments/assets/7a960ef0-a3e1-49de-bc2b-aaf14e00376b)
+
+The image above shows the results of the Layout Versus Schematic (LVS) check for the CMOS inverter. The LVS check confirms a complete match between the layout and the schematic, with no discrepancies identified. This result verifies that the layout accurately represents the schematic design and is error-free.
+
+
+     
+
+
+
