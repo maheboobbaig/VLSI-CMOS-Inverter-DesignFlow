@@ -1,7 +1,7 @@
 # VLSI-CMOS-Inverter-DesignFlow
 A complete VLSI design flow for a CMOS inverter using Cadence Virtuoso. Covers schematic design, symbol creation, testbench setup, transient and DC analysis, layout 
 generation, DRC and LVS checks. AV extraction is pending. Ideal for students and professionals in VLSI design.
-
+<br>
 The project demonstrates a full design flow for a CMOS inverter, a fundamental building block in VLSI design. Using Cadence Virtuoso, the following steps are covered:
 1. Schematic Design: A well-structured CMOS inverter schematic.
 2. Symbol Creation: A reusable symbol for hierarchical design.
@@ -21,7 +21,7 @@ The CMOS inverter schematic includes the following key components:
 - Input and output: The input signal is processed by the inverter to produce the output signal.
 
 The schematic diagram illustrates how these components are connected to achieve the desired inverter functionality.
-
+<br>
 Below is the schematic diagram of the CMOS inverter:
 
 ![Inverter Schematic Design](https://github.com/user-attachments/assets/13bcb6cb-bb7d-42ca-b338-42173e372ea6)
@@ -43,12 +43,11 @@ Below is the symbol created for the CMOS inverter:
 
 Creating the symbol for the CMOS inverter is essential for integrating the inverter into schematic diagrams. It provides a standardized way to represent the inverter, making the design process more efficient and organized.
 
-3.Testbench Setup
-<br>
+3.Testbench Setup:
 The testbench setup for the CMOS inverter involves configuring input and power signals to verify the circuit's functionality. This section describes the connections and components used in the testbench.
 
 The testbench setup consists of the following components:
-
+<br>
 - Pulse Source (VPULSE): Provides a pulsed signal to the input of the CMOS inverter. This simulates varying input conditions to test the inverter’s response.
 - DC Voltage Source (VDC): Provides a constant DC voltage to power the CMOS inverter. It is connected to the VDD and VSS pins of the inverter.
 <br>
@@ -67,7 +66,6 @@ Below is the diagram of the testbench setup for the CMOS inverter:
 The testbench setup for the CMOS inverter uses a pulse source (VPULSE) to apply varying input signals and a DC voltage source (VDC) to power the circuit. By connecting these sources to the appropriate pins and monitoring the output, the testbench helps verify the inverter’s functionality and performance.
 
 4. Transient Analysis:
-<br>
 Transient analysis is used to observe the time-varying behavior of the CMOS inverter. This analysis shows how the inverter responds to changes in input signals over time.
 
 4.1 Setup Transient Analysis:
@@ -96,21 +94,24 @@ Below are the results from the transient analysis:
 
 
 4.5 Result of Transient Response
-   
 
-     <img width="960" alt="Transient Response" src="https://github.com/user-attachments/assets/232af5dc-bd4c-4461-a2e0-eef39599e3a5">
+   
+ <img width="960" alt="Transient Response" src="https://github.com/user-attachments/assets/232af5dc-bd4c-4461-a2e0-eef39599e3a5">
 
 
 4.6 Result of DC Output without input
-   
-     
+
+
+
 <img width="960" alt="DC output 1" src="https://github.com/user-attachments/assets/2ffb0f08-b749-4519-abd0-58307edf6695">
 
 
 4.7 Result of DC Output with input
    
+
    
-     <img width="960" alt="DC Output 2 with Input" src="https://github.com/user-attachments/assets/7be60c78-706e-41d2-83d2-9162d5aa06cd">
+<img width="960" alt="DC Output 2 with Input" src="https://github.com/user-attachments/assets/7be60c78-706e-41d2-83d2-9162d5aa06cd">
+
 
 
 4.8 Result of Output Current
@@ -122,14 +123,14 @@ Below are the results from the transient analysis:
 4.9  Result of both DC and Current Output
    
 
-     ![DC with Current Output](https://github.com/user-attachments/assets/055ef255-fa2e-49bd-91db-b18a804fab99)
+![DC with Current Output](https://github.com/user-attachments/assets/055ef255-fa2e-49bd-91db-b18a804fab99)
 
 
 
 4.91 Final Result
    
 
-     ![Final Result](https://github.com/user-attachments/assets/7f4e3a6a-c6a9-4d6c-83a8-31c3c3aea1d8)
+![Final Result](https://github.com/user-attachments/assets/7f4e3a6a-c6a9-4d6c-83a8-31c3c3aea1d8)
 
 
 5. Layout Generation : DRC and LVS Checked
