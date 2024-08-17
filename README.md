@@ -1,7 +1,7 @@
 # VLSI-CMOS-Inverter-DesignFlow
 A complete VLSI design flow for a CMOS inverter using Cadence Virtuoso. Covers schematic design, symbol creation, testbench setup, transient and DC analysis, layout 
-generation, DRC and LVS checks. 
-AV extraction is pending. Ideal for students and professionals in VLSI design.
+generation, DRC and LVS checks. AV extraction is pending. Ideal for students and professionals in VLSI design.
+
 The project demonstrates a full design flow for a CMOS inverter, a fundamental building block in VLSI design. Using Cadence Virtuoso, the following steps are covered:
 1. Schematic Design: A well-structured CMOS inverter schematic.
 2. Symbol Creation: A reusable symbol for hierarchical design.
@@ -13,7 +13,6 @@ The project demonstrates a full design flow for a CMOS inverter, a fundamental b
 
 Lets Start
 1. Schematic Design:
-<br>
 The schematic design represents the initial step in developing the CMOS inverter. It shows the electrical connections and components that make up the circuit, which is crucial for understanding the circuit’s functionality and design.
 
 The CMOS inverter schematic includes the following key components:
@@ -30,7 +29,6 @@ Below is the schematic diagram of the CMOS inverter:
 This schematic provides a detailed view of the CMOS inverter’s design and is essential for the subsequent steps, such as Testbench, simulation and layout design. Understanding the schematic helps ensure that the circuit performs as expected.
 
 2. Symbol creation:
-<br>
 Symbol creation involves designing a graphical representation of the CMOS inverter that will be used in schematic diagrams. This symbol simplifies the representation of the inverter in circuit designs and helps in maintaining a clear and organized schematic layout.
 
 The symbol for the CMOS inverter includes:
@@ -62,7 +60,9 @@ Connections:
 
 Below is the diagram of the testbench setup for the CMOS inverter:
 
+
 ![Inverter Testbench Creation](https://github.com/user-attachments/assets/682f2699-bf14-4a03-a028-092f4b4b56ca)
+
 
 The testbench setup for the CMOS inverter uses a pulse source (VPULSE) to apply varying input signals and a DC voltage source (VDC) to power the circuit. By connecting these sources to the appropriate pins and monitoring the output, the testbench helps verify the inverter’s functionality and performance.
 
