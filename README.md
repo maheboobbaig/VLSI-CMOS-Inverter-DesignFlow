@@ -7,15 +7,14 @@ The project demonstrates a full design flow for a CMOS inverter, a fundamental b
 4. Transient and DC Analysis: Detailed simulation results, ensuring the design meets performance criteria.
 5. Layout Generation: Converting the schematic to a physical layout while adhering to design rules.
 6. DRC and LVS Checks: Ensuring that the layout is error-free and matches the schematic design.
-7. AV Extraction (Pend ing): The final step, parasitic extraction, will be added shortly.
+7. AV Extraction (Pending): The final step, parasitic extraction, will be added shortly.
 
 Lets Start
-1. Schematic Design
-   <br>
+1. Schematic Design:
+ <br>
 The schematic design represents the initial step in developing the CMOS inverter. It shows the electrical connections and components that make up the circuit, which is crucial for understanding the circuit’s functionality and design.
 
 The CMOS inverter schematic includes the following key components:
-
 - PMOS and NMOS transistors: These transistors are the core of the CMOS inverter circuit.
 - Power supply: Provides the necessary voltage for the circuit to operate.
 - Input and output: The input signal is processed by the inverter to produce the output signal.
@@ -27,9 +26,9 @@ Below is the schematic diagram of the CMOS inverter:
 ![Inverter Schematic Design](https://github.com/user-attachments/assets/13bcb6cb-bb7d-42ca-b338-42173e372ea6)
 
 This schematic provides a detailed view of the CMOS inverter’s design and is essential for the subsequent steps, such as Testbench, simulation and layout design. Understanding the schematic helps ensure that the circuit performs as expected.
+
+2. Symbol creation:
 <br>
-2. Symbol creation
-   <br>
 Symbol creation involves designing a graphical representation of the CMOS inverter that will be used in schematic diagrams. This symbol simplifies the representation of the inverter in circuit designs and helps in maintaining a clear and organized schematic layout.
 
 The symbol for the CMOS inverter includes:
