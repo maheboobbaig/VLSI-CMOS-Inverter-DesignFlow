@@ -10,6 +10,7 @@ The project demonstrates a full design flow for a CMOS inverter, a fundamental b
 5. Layout Generation: Converting the schematic to a physical layout while adhering to design rules.
 6. DRC and LVS Checks: Ensuring that the layout is error-free and matches the schematic design.
 7. AV Extraction (Pending): The final step, parasitic extraction, will be added shortly.
+8. Transistor Swap Analysis : Schematic Design and Simulation Results
 
 Lets Start
 1. Schematic Design:
@@ -84,6 +85,7 @@ Below are the results from the transient analysis:
 <img width="665" alt="ADE L " src="https://github.com/user-attachments/assets/139d9c44-c0fe-44bb-b6b4-984b75c3290b">
 
 
+
 4.3 Plotting Results:
    - Select Output and Input lines for plotting.
    - Run the transient analysis and review the results.
@@ -97,6 +99,7 @@ Below are the results from the transient analysis:
 
    
  <img width="960" alt="Transient Response" src="https://github.com/user-attachments/assets/232af5dc-bd4c-4461-a2e0-eef39599e3a5">
+ 
 
 
 4.6 Result of DC Output without input
@@ -104,6 +107,7 @@ Below are the results from the transient analysis:
 
 
 <img width="960" alt="DC output 1" src="https://github.com/user-attachments/assets/2ffb0f08-b749-4519-abd0-58307edf6695">
+
 
 
 4.7 Result of DC Output with input
@@ -114,10 +118,12 @@ Below are the results from the transient analysis:
 
 
 
+
 4.8 Result of Output Current
    
 
 <img width="960" alt="Current Plot" src="https://github.com/user-attachments/assets/ce9246b2-1580-4a6d-b51f-2a647f4505d2">
+
 
 
 4.9  Result of both DC and Current Output
@@ -127,10 +133,12 @@ Below are the results from the transient analysis:
 
 
 
+
 4.91 Final Result
    
 
 ![Final Result](https://github.com/user-attachments/assets/7f4e3a6a-c6a9-4d6c-83a8-31c3c3aea1d8)
+
 
 
 5. Layout Generation : DRC and LVS Checked
@@ -138,6 +146,7 @@ Below are the results from the transient analysis:
 5.1 DRC Checked
 
 ![Inverter Layout with DRC Check](https://github.com/user-attachments/assets/7ffce0f4-4f2f-46d0-8bea-a0283ec9d05d)
+
 
 
 The image above presents the results of the Design Rule Check (DRC) for the CMOS inverter layout. The check has been successfully completed with no violations detected, as indicated by the absence of any error highlights. This confirms that the layout adheres to all design rules and is fully compliant, allowing it to proceed to the next stages in the design flow.
@@ -150,14 +159,38 @@ first image
 ![Inverter Layout with LVS](https://github.com/user-attachments/assets/9044d869-7a92-41eb-b818-2a1d83731bb0)
 
 
+
 second image
 
 ![Schematic and Layout Match](https://github.com/user-attachments/assets/7a960ef0-a3e1-49de-bc2b-aaf14e00376b)
+
 
 The image above shows the results of the Layout Versus Schematic (LVS) check for the CMOS inverter. The LVS check confirms a complete match between the layout and the schematic, with no discrepancies identified. This result verifies that the layout accurately represents the schematic design and is error-free.
 
 
      
+8. Transistor Swap Analysis:
+In this analysis, the PMOS and NMOS transistors in the CMOS inverter were interchanged to observe changes in circuit behavior. The following sections include the schematic design, along with transient and DC output simulations, to illustrate the effects of the transistor swap.
+
+8.1 Schematic Design with Swapped Transistors
 
 
+![Transistors Interchanges in Schematic](https://github.com/user-attachments/assets/50af0a51-7fe8-4997-9e15-78796b540e5b)
+
+
+
+The image above shows the schematic of the CMOS inverter with the PMOS and NMOS transistors swapped. This configuration reflects the new arrangement of the transistors in the circuit design, providing a basis for understanding the subsequent simulation results.
+
+
+
+
+8.2 Transient Analysis with Swapped Transistors
+
+
+
+<img width="960" alt="Transistors Interchanges Transient Output" src="https://github.com/user-attachments/assets/38d1f9ff-36b4-4883-ad36-371e5f028401">
+
+
+
+The image above presents the transient simulation results for the CMOS inverter after the transistor swap. The results indicate that the inverter operates similarly to a buffer, with slower transition times and reduced output drive strength compared to the original design.s
 
