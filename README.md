@@ -13,7 +13,7 @@ The project demonstrates a full design flow for a CMOS inverter, a fundamental b
 8. Transistor Swap Analysis : Schematic Design and Simulation Results
 
 Lets Start
-1. Schematic Design:
+**1. Schematic Design:**
 The schematic design represents the initial step in developing the CMOS inverter. It shows the electrical connections and components that make up the circuit, which is crucial for understanding the circuit’s functionality and design.
 
 The CMOS inverter schematic includes the following key components:
@@ -29,7 +29,7 @@ Below is the schematic diagram of the CMOS inverter:
 
 This schematic provides a detailed view of the CMOS inverter’s design and is essential for the subsequent steps, such as Testbench, simulation and layout design. Understanding the schematic helps ensure that the circuit performs as expected.
 
-2. Symbol creation:
+**2. Symbol creation:**
 Symbol creation involves designing a graphical representation of the CMOS inverter that will be used in schematic diagrams. This symbol simplifies the representation of the inverter in circuit designs and helps in maintaining a clear and organized schematic layout.
 
 The symbol for the CMOS inverter includes:
@@ -44,7 +44,7 @@ Below is the symbol created for the CMOS inverter:
 
 Creating the symbol for the CMOS inverter is essential for integrating the inverter into schematic diagrams. It provides a standardized way to represent the inverter, making the design process more efficient and organized.
 
-3.Testbench Setup:
+**3.Testbench Setup:**
 The testbench setup for the CMOS inverter involves configuring input and power signals to verify the circuit's functionality. This section describes the connections and components used in the testbench.
 
 The testbench setup consists of the following components:
@@ -66,14 +66,14 @@ Below is the diagram of the testbench setup for the CMOS inverter:
 
 The testbench setup for the CMOS inverter uses a pulse source (VPULSE) to apply varying input signals and a DC voltage source (VDC) to power the circuit. By connecting these sources to the appropriate pins and monitoring the output, the testbench helps verify the inverter’s functionality and performance.
 
-4. Transient Analysis:
+**4. Transient Analysis:**
 Transient analysis is used to observe the time-varying behavior of the CMOS inverter. This analysis shows how the inverter responds to changes in input signals over time.
 
-4.1 Setup Transient Analysis:
+**4.1 Setup Transient Analysis:**
    - Set the Stop Time to 200 nanoseconds.
    - Choose Moderate Mode for the simulation.
 
-4.2 DC Analysis Setup:
+**4.2 DC Analysis Setup:**
    - Select the option to Save DC Operating Point.
    - Choose Component Parameter for the sweep type.
    - Select VPULSE as the component for DC sweep.
@@ -86,23 +86,23 @@ Below are the results from the transient analysis:
 
 
 
-4.3 Plotting Results:
+**4.3 Plotting Results:**
    - Select Output and Input lines for plotting.
    - Run the transient analysis and review the results.
 
-4.4 Netlist and Simulation:
+**4.4 Netlist and Simulation:**
    - Ensure the netlist is generated correctly.
    - Execute the simulation to analyze the transient response of the CMOS inverter.
 
 
-4.5 Result of Transient Response
+**4.5 Result of Transient Response**
 
    
  <img width="960" alt="Transient Response" src="https://github.com/user-attachments/assets/232af5dc-bd4c-4461-a2e0-eef39599e3a5">
  
 
 
-4.6 Result of DC Output without input
+**4.6 Result of DC Output without input**
 
 
 
@@ -110,7 +110,7 @@ Below are the results from the transient analysis:
 
 
 
-4.7 Result of DC Output with input
+**4.7 Result of DC Output with input**
    
 
    
@@ -119,14 +119,14 @@ Below are the results from the transient analysis:
 
 
 
-4.8 Result of Output Current
+**4.8 Result of Output Current**
    
 
 <img width="960" alt="Current Plot" src="https://github.com/user-attachments/assets/ce9246b2-1580-4a6d-b51f-2a647f4505d2">
 
 
 
-4.9  Result of both DC and Current Output
+**4.9  Result of both DC and Current Output**
    
 
 ![DC with Current Output](https://github.com/user-attachments/assets/055ef255-fa2e-49bd-91db-b18a804fab99)
@@ -134,16 +134,16 @@ Below are the results from the transient analysis:
 
 
 
-4.91 Final Result
+**4.91 Final Result**
    
 
 ![Final Result](https://github.com/user-attachments/assets/7f4e3a6a-c6a9-4d6c-83a8-31c3c3aea1d8)
 
 
 
-5. Layout Generation : DRC and LVS Checked
+**5. Layout Generation : DRC and LVS Checked**
 
-5.1 DRC Checked
+**5.1 DRC Checked**
 
 ![Inverter Layout with DRC Check](https://github.com/user-attachments/assets/7ffce0f4-4f2f-46d0-8bea-a0283ec9d05d)
 
@@ -152,7 +152,7 @@ Below are the results from the transient analysis:
 The image above presents the results of the Design Rule Check (DRC) for the CMOS inverter layout. The check has been successfully completed with no violations detected, as indicated by the absence of any error highlights. This confirms that the layout adheres to all design rules and is fully compliant, allowing it to proceed to the next stages in the design flow.
 
 
-5.2 LVS Checked
+**5.2 LVS Checked**
 
 first image 
 
@@ -169,10 +169,10 @@ The image above shows the results of the Layout Versus Schematic (LVS) check for
 
 
      
-8. Transistor Swap Analysis:
+**8. Transistor Swap Analysis:**
 In this analysis, the PMOS and NMOS transistors in the CMOS inverter were interchanged to observe changes in circuit behavior. The following sections include the schematic design, along with transient and DC output simulations, to illustrate the effects of the transistor swap.
 
-8.1 Schematic Design with Swapped Transistors
+**8.1 Schematic Design with Swapped Transistors**
 
 
 ![Transistors Interchanges in Schematic](https://github.com/user-attachments/assets/50af0a51-7fe8-4997-9e15-78796b540e5b)
@@ -184,7 +184,7 @@ The image above shows the schematic of the CMOS inverter with the PMOS and NMOS 
 
 
 
-8.2 Transient Analysis with Swapped Transistors
+**8.2 Transient Analysis with Swapped Transistors**
 
 
 
