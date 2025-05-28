@@ -168,27 +168,7 @@ second image
 The image above shows the results of the Layout Versus Schematic (LVS) check for the CMOS inverter. The LVS check confirms a complete match between the layout and the schematic, with no discrepancies identified. This result verifies that the layout accurately represents the schematic design and is error-free.
 
 
-     
-**8. Transistor Swap Analysis:**
-In this analysis, the PMOS and NMOS transistors in the CMOS inverter were interchanged to observe changes in circuit behavior. The following sections include the schematic design, along with transient and DC output simulations, to illustrate the effects of the transistor swap.
 
-**8.1 Schematic Design with Swapped Transistors**
-
-
-![Transistors Interchanges in Schematic](https://github.com/user-attachments/assets/50af0a51-7fe8-4997-9e15-78796b540e5b)
-
-
-
-The image above shows the schematic of the CMOS inverter with the PMOS and NMOS transistors swapped. This configuration reflects the new arrangement of the transistors in the circuit design, providing a basis for understanding the subsequent simulation results.
-
-
-
-
-**8.2 Transient Analysis with Swapped Transistors**
-
-
-
-<img width="960" alt="Transistors Interchanges Transient Output" src="https://github.com/user-attachments/assets/38d1f9ff-36b4-4883-ad36-371e5f028401">
 
 
 
